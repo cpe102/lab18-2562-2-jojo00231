@@ -9,6 +9,10 @@ using namespace std;
 
 struct student{
 	//Define struct student with four member (name ,id , gender, gpa);
+	string name;
+	int id;
+	string gender;
+	double gpa;
 };
 
 struct course{
@@ -56,7 +60,7 @@ int main(){
 	
 	while(getline(student_file,textline)){
 		student s; 
-	
+		
 		//Assign value to the members of struct s;
 	
 		allstudents.push_back(s); 		
